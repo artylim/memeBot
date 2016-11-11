@@ -1,11 +1,12 @@
 import json
 from pip._vendor import requests
 
-botId = "09627250596d98c0f84afe710d"
+testerId = "09627250596d98c0f84afe710d"
+mainId = "708ba9d473b9e167294f4eb234"
 
 data = {
-  "bot_id"  : botId,
-  "text"    : "TEST"
+  "testerId"  : botId,
+  "text"    : "go fuck yourself"
 }
 
 req = requests.post('https://api.groupme.com/v3/bots/post', data)
